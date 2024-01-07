@@ -25,6 +25,41 @@ a {
 main {
   position: relative;
   margin: 0 auto;
+
+}
+
+.accordion-item{
+  padding: 10px;
+  border: black solid 2px;
+  border-radius: 1px;
+  margin: 20px;
+}
+
+
+.accordion-header{
+  
+}
+
+
+.accordion-body {
+  /*展開本文*/
+  color: $default-font-color;
+  background-color: $default-background-color;
+  font-weight: 400;
+
+}
+
+.accordion-button {
+
+  font-size: 36px;
+
+  &:enabled{
+    /*表題*/
+    color: $default-font-color;
+    background-color: $default-background-color;
+    font-weight: 700;
+
+  }
 }
 
 
@@ -35,7 +70,7 @@ main {
   height: 100%;
   line-height: 100%;
 
-  padding: 50px;
+  padding: 40px 50px;
 
   align-items: center;
 

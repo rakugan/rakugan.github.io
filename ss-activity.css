@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 * {
   box-sizing: border-box;
@@ -19,6 +20,30 @@ a:visited, a :active {
 main {
   position: relative;
   margin: 0 auto;
+}
+
+.accordion-item {
+  padding: 10px;
+  border: black solid 2px;
+  border-radius: 1px;
+  margin: 20px;
+}
+
+.accordion-body {
+  /*展開本文*/
+  color: black;
+  background-color: white;
+  font-weight: 400;
+}
+
+.accordion-button {
+  font-size: 36px;
+}
+.accordion-button:enabled {
+  /*表題*/
+  color: black;
+  background-color: white;
+  font-weight: 700;
 }
 
 .caption {
@@ -51,4 +76,4 @@ main {
 }
 .caption:hover .bii-size-big {
   color: white;
-}/*# sourceMappingURL=ss-index.css.map */
+}/*# sourceMappingURL=ss-activity.css.map */
