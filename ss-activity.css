@@ -1,0 +1,104 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans Japanese", sans-serif;
+  /* font-weight: (100,300,400,500,700,900) */
+}
+
+a {
+  text-decoration: none;
+}
+a:visited, a :active {
+  color: inherit;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+}
+header .headers {
+  display: table;
+  background-color: black;
+  width: 25%;
+  height: 100%;
+  float: left;
+}
+header .headers a {
+  font-weight: 500;
+  color: gray;
+  height: 100%;
+  line-height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  transition: all 0.3s;
+  transition-timing-function: ease-out;
+}
+header .headers a:hover {
+  background-color: white;
+}
+header .activity {
+  background-color: white;
+}
+
+body {
+  padding-top: 60px;
+}
+
+main {
+  position: relative;
+  margin: 0 auto;
+}
+
+.accordion-item {
+  padding: 10px;
+  border: black solid 2px;
+  border-radius: 1px;
+  margin: 20px;
+}
+
+.accordion-body {
+  /*展開本文*/
+  color: black;
+  background-color: white;
+  font-weight: 400;
+}
+.accordion-body a {
+  color: #0044CC;
+}
+
+.accordion-button {
+  font-size: 36px;
+}
+.accordion-button .title-co {
+  width: 100%;
+  line-height: 100%;
+}
+.accordion-button .title-co h2 {
+  margin-top: 8px;
+  float: left;
+  line-height: 100%;
+}
+.accordion-button .title-co p {
+  font-size: 18px;
+  padding-left: 50%;
+  line-height: 110%;
+}
+.accordion-button .title-co p .thinner {
+  font-weight: 400;
+}
+.accordion-button:enabled {
+  /*表題*/
+  color: black;
+  background-color: white;
+  font-weight: 700;
+}/*# sourceMappingURL=ss-activity.css.map */
