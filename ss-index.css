@@ -55,8 +55,12 @@ main {
   font-size: 90px;
   display: inline-block;
 }
+.caption a {
+  display: flex;
+}
 .caption i {
   padding-right: 20px;
+  align-items: flex-end;
 }
 .caption:hover {
   background-color: black;
@@ -100,5 +104,10 @@ footer img {
   .caption-black {
     font-size: 50px;
     padding: 20px 25px;
+  }
+}
+@media all and (max-width: 500px) {
+  footer {
+    width: 500px;
   }
 }/*# sourceMappingURL=ss-index.css.map */

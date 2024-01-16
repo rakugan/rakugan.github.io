@@ -72,8 +72,12 @@ main {
 
   transition-timing-function: ease-out;
 
+  a{
+    display: flex;
+  }
   i{
     padding-right: 20px;
+    align-items: flex-end;
   }
 
   &:hover {
@@ -138,6 +142,9 @@ footer{
   }
 }
 
-@media all and (max-width: 670px) {
+@media all and (max-width: 500px) {
+  footer {
+    width: 500px;
+  }
 
 }
