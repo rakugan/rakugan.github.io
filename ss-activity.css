@@ -101,4 +101,14 @@ main {
   color: black;
   background-color: white;
   font-weight: 700;
+}
+
+@media all and (max-width: 1000px) {
+  .accordion-button .title-co h2 {
+    width: 100%;
+    clear: left;
+  }
+  .accordion-button .title-co p {
+    padding-left: 5%;
+  }
 }/*# sourceMappingURL=ss-activity.css.map */
