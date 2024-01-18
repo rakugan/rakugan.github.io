@@ -1,0 +1,66 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans Japanese", sans-serif;
+  /* font-weight: (100,300,400,500,700,900) */
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+}
+header .headers {
+  display: table;
+  background-color: black;
+  width: 25%;
+  height: 100%;
+  float: left;
+}
+header .headers a {
+  font-weight: 500;
+  color: gray;
+  height: 100%;
+  line-height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  transition: all 0.3s;
+  transition-timing-function: ease-out;
+}
+header .headers a:hover {
+  background-color: white;
+}
+header .belonging {
+  background-color: white;
+}
+
+body {
+  padding-top: 60px;
+}
+
+.main {
+  position: relative;
+  margin: 0 auto;
+}
+.main .belonging-container {
+  margin: 10px 40px 20px 40px;
+  background-color: #f6f6f6;
+  padding: 20px 40px;
+}
+.main .belonging-container .title {
+  font-size: 50px;
+  margin: 0px;
+  padding-bottom: 10px;
+}/*# sourceMappingURL=ss-belonging.css.map */
